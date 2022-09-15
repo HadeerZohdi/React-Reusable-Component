@@ -1,0 +1,54 @@
+.layout-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-content {
+  width: 90%;
+  min-height: calc(100vh - 360px);
+  margin: auto;
+  margin-top: -40px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 -4px 5px 2px #c9c9c917;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 300px;
+  background-color: var(--grey-f2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+.navlink:hover {
+  color: cornflowerblue;
+  transform: scale(1.03);
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--grey-f2);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}

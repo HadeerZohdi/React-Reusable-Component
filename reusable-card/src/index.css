@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --gray-color-43: #464343;
+  --gray-color-77: #777777;
+  --grey-f2: #f2f2f2;
+  --black-3c: #3c3c43;
+  --light-grey-color: #808080;
+  --gray-9a: #9a9a9a;
+  --gray-bf: #bfbfbf;
+  --gray-c9: #c9c9c9;
+  --gold-color: #f7a920;
+  --hover-btn-color: #ffd36c;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--gold-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--hover-btn-color);
+}
+button:active {
+  background-color: var(--hover-btn-color);
+  transform: scale(0.97);
+}
+
+p {
+  font-size: 14px;
+  color: var(--gray-color-43);
+  line-height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--black-3c);
+}
