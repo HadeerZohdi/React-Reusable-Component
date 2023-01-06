@@ -1,8 +1,9 @@
 .card {
   width: 250px;
+  min-width: 250px;
   min-height: 300px;
+  margin: 10px;
   border-radius: 15px 15px 0 0;
-  margin: auto;
   box-shadow: 0 0 5px 2px #80808024;
   cursor: pointer;
   transition: ease-in-out 0.15s;
